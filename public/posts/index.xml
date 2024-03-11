@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Michaelan</title>
+    <title>Posts on Mikhail Tarchyla</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Michaelan</description>
+    <description>Recent content in Posts on Mikhail Tarchyla</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Mar 2024 21:26:32 +0100</lastBuildDate>
@@ -13,6 +13,27 @@
       <link>http://localhost:1313/posts/test/</link>
       <pubDate>Mon, 11 Mar 2024 21:26:32 +0100</pubDate>
       <guid>http://localhost:1313/posts/test/</guid>
+      <description>This is some content</description>
+    </item>
+    <item>
+      <title>Test1</title>
+      <link>http://localhost:1313/posts/test1/</link>
+      <pubDate>Mon, 11 Mar 2024 21:26:32 +0100</pubDate>
+      <guid>http://localhost:1313/posts/test1/</guid>
+      <description>This is some content</description>
+    </item>
+    <item>
+      <title>Test2</title>
+      <link>http://localhost:1313/posts/test2/</link>
+      <pubDate>Mon, 11 Mar 2024 21:26:32 +0100</pubDate>
+      <guid>http://localhost:1313/posts/test2/</guid>
+      <description>This is some content</description>
+    </item>
+    <item>
+      <title>Test3</title>
+      <link>http://localhost:1313/posts/test3/</link>
+      <pubDate>Mon, 11 Mar 2024 21:26:32 +0100</pubDate>
+      <guid>http://localhost:1313/posts/test3/</guid>
       <description>This is some content</description>
     </item>
   </channel>

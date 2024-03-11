@@ -11,6 +11,18 @@
     <loc>http://localhost:1313/posts/test/</loc>
     <lastmod>2024-03-11T21:26:32+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/test1/</loc>
+    <lastmod>2024-03-11T21:26:32+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/test2/</loc>
+    <lastmod>2024-03-11T21:26:32+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/test3/</loc>
+    <lastmod>2024-03-11T21:26:32+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>

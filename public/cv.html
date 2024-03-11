@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikhail Tarchyla's CV</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        /* .container { max-width: 800px; margin: auto; } */
+        /* .header { text-align: center; } */
+        .section { margin-top: 20px; }
+        .section-title { font-size: 20px; text-decoration: underline; }
+        .contact-info, .skills-list, .experience-item { margin-top: 10px; }
+        .skills-list li, .experience-item ul li { margin-top: 5px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>Mikhail Tarchyla</h1>
+        <p><a href="mailto:michael.tarchyla@gmail.com">michael.tarchyla@gmail.com</a> - <a href="">+48795614033</a></p> 
+        <p><a href="https://linkedin.com/in/mikhail-tarchyla" target="_blank">LinkedIn</a> - <a href="https://github.com/TMichaelan" target="_blank">GitHub</a></p>
+        <p>Location : Poznan, Poland, 61131 </p>
+    </div>
+    <div class="section">
+        <div class="section-title">Skills</div>
+        <ul class="skills-list">
+            <li>Development & Frameworks: Python, Django, DRF, JavaScript, HTML, CSS</li>
+            <li>DevOps & Cloud: Docker, NGINX, AWS, GitLab CI/CD, Terraform, Kubernetes, GCP</li>
+            <li>Testing & Performance: Selenium, Unit Testing, Locust, n8n, Pandas, PyTest</li>
+            <li>Database Management: PostgreSQL, Redis, Firebase, MongoDB</li>
+            <li>Project Management & Collaboration: Git, Agile, Scrum, Jira, GitFlow</li>
+            <li>Programming Paradigms: OOP, RESTful API Development, Microservices Architecture</li>
+            <li>Security Best Practices: OAuth2, JWT, OWASP Top 10 awareness</li>
+        </ul>
+    </div>
+    <div class="section">
+        <div class="section-title">Work Experience</div>
+        <div class="experience-item">
+            <h3>Backend Developer - OSKAR Group, Poznan (06/2023 - 03/2024)</h3>
+            <ul>
+                <li>Developed and maintained web applications with Python Django and Django Rest Framework</li>
+                <li>Worked on automation end-to-end testing using Selenium, Unit Testing</li>
+                <li>Implementing CI & CD pipelines</li>
+                <li>Enhanced company’s ERP system</li>
+                <li>Designed tools to enhance efficiency in analyzing competitors' market prices</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Software Developer, DevOps - Self-employed/freelancing, Remote (10/2019 - 03/2024)</h3>
+            <ul>
+                <li>Developed web applications with a mix of frontend and backend technologies</li>
+                <li>Server administration, Docker scripting</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Frontend Web Developer - Platform500, Remote (01/2021 - 02/2022)</h3>
+            <ul>
+                <li>Developed responsive and cross-browser web applications with HTML5, CSS3, and JavaScript</li>
+            </ul>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-title">Education</div>
+        <p>Bachelor of Computer Science (BSc) - Poznan University of Technology, Poznan (10/2020 - 02/2024)</p>
+    </div>
+    <button id="downloadPdf">Download CV as PDF</button>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+<script>
+    document.getElementById('downloadPdf').addEventListener('click', function() {
+        window.print();
+    });
+    </script>
+</body>
+</html>
