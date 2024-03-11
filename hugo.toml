@@ -1,0 +1,4 @@
+baseURL = 'https://tmichaelan.github.io/'
+languageCode = 'en-us'
+title = 'Michaelan'
+theme = "hugo-paper"
