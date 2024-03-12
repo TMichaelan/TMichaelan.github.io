@@ -42,7 +42,7 @@
   />
 
   
-  <title>Test - Mikhail Tarchyla</title>
+  <title>OpenCV Robot - Mikhail Tarchyla</title>
 
   
   <meta name="theme-color" />
@@ -51,7 +51,12 @@
   
   
   
-  <meta name="description" content="This is some content" />
+  <meta name="description" content="Robot Main components: Web Cam Raspberry Pi 3 Arduino Uno USB-TTL converter 4 wheels with motors 2x 18650 batteries motor expansion board Launch The device we are going to connect to must be on the same network(Wi-Fi) with Raspberry Pi.
+Download the project repository:
+git clone https://github.com/TMichaelan/embedded-systems-project.git Install requirements
+pip install -r requirements launch the application
+cd embedded-systems-project python3 app.py -i (ip-adress rasberry pi) -p (port) -s (UART) or
+in the file settings." />
   <meta name="author" content="Mikhail Tarchyla" />
   
 
@@ -205,7 +210,7 @@
 
 <article>
   <header class="mb-16">
-    <h1 class="!my-0 pb-2.5">Test</h1>
+    <h1 class="!my-0 pb-2.5">OpenCV Robot</h1>
 
     
     <div class="text-sm antialiased opacity-60">
@@ -219,7 +224,37 @@
     
   </header>
 
-  <section><p>This is some content</p>
+  <section><h2 id="robot">Robot</h2>
+<p><img src="https://raw.githubusercontent.com/TMichaelan/embedded-systems-project-put/main/img/robot.jpg" alt="Robot Image"></p>
+<p><img src="https://raw.githubusercontent.com/TMichaelan/embedded-systems-project-put/main/img/binary.png" alt="Binary Image"></p>
+<h2 id="main-components">Main components:</h2>
+<ul>
+<li>Web Cam</li>
+<li>Raspberry Pi 3</li>
+<li>Arduino Uno</li>
+<li>USB-TTL converter</li>
+<li>4 wheels with motors</li>
+<li>2x 18650 batteries</li>
+<li>motor expansion board</li>
+</ul>
+<h2 id="launch">Launch</h2>
+<p>The device we are going to connect to must be on the same network(Wi-Fi) with Raspberry Pi.</p>
+<p>Download the project repository:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>git clone https://github.com/TMichaelan/embedded-systems-project.git
+</span></span></code></pre></div><p>Install requirements</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>pip install -r requirements
+</span></span></code></pre></div><p>launch the application</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cd embedded-systems-project
+</span></span><span style="display:flex;"><span>python3 app.py -i <span style="color:#f92672">(</span>ip-adress rasberry pi<span style="color:#f92672">)</span> -p <span style="color:#f92672">(</span>port<span style="color:#f92672">)</span> -s <span style="color:#f92672">(</span>UART<span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>or</p>
+<pre tabindex="0"><code>in the file settings.py insert IP-address, port, uart
+</code></pre><p>Open the browser and type in it</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#f92672">(</span>ip-adress rasberry pi<span style="color:#f92672">)</span>:<span style="color:#f92672">(</span>port<span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>Mobile phone:</p>
+<pre tabindex="0"><code>http://(ip-adress rasberry pi):(port)
+</code></pre><p>Example:</p>
+<pre tabindex="0"><code>192.168.1.64:5000
+</code></pre><p><a href="https://youtu.be/yCCHGjytB-s">demo video</a></p>
 </section>
 
   

@@ -9,11 +9,11 @@
     <lastBuildDate>Mon, 11 Mar 2024 21:26:32 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>http://localhost:1313/posts/test/</link>
+      <title>OpenCV Robot</title>
+      <link>http://localhost:1313/posts/robot/</link>
       <pubDate>Mon, 11 Mar 2024 21:26:32 +0100</pubDate>
-      <guid>http://localhost:1313/posts/test/</guid>
-      <description>This is some content</description>
+      <guid>http://localhost:1313/posts/robot/</guid>
+      <description>Robot Main components: Web Cam Raspberry Pi 3 Arduino Uno USB-TTL converter 4 wheels with motors 2x 18650 batteries motor expansion board Launch The device we are going to connect to must be on the same network(Wi-Fi) with Raspberry Pi.&#xA;Download the project repository:&#xA;git clone https://github.com/TMichaelan/embedded-systems-project.git Install requirements&#xA;pip install -r requirements launch the application&#xA;cd embedded-systems-project python3 app.py -i (ip-adress rasberry pi) -p (port) -s (UART) or&#xA;in the file settings.</description>
     </item>
     <item>
       <title>About</title>
